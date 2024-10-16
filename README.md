@@ -49,4 +49,20 @@ The vision of the NFT-Minter Project is to create a collaborative, beginner-frie
 
     ***Note: You need to fill in the values for the empty environment variables yourself in order to successfully run this project locally on your system.***
 
-4. Finally, start the server by using this command: ```npm run start``` 
+4. Finally, start the server by using this command: ```npm run start```
+
+## Maintainers (Our Team for Hacktoberfest2024)
+
+<table>
+  <tr>
+  <td align="center" style="word-wrap: break-word; width: 200.0; height: 200.0">
+    <a href=https://github.com/bhupendra-chouhan/>
+      <img src="https://avatars.githubusercontent.com/u/78025043?v=4" width=250px height=295px />
+      <br />
+      <sub style="font-size:14px"><b>Bhupendra Chouhan</b></sub>
+    </a>  
+    </td>
+
+</table>
+
+
