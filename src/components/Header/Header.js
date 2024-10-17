@@ -64,7 +64,9 @@ const Header = ({ setPubAddress }) => {
               key={2}
               className="cursor-pointer border-blue-400 hover:bg-blue-500 hover:text-white text-black md:text-white  border rounded-lg p-2 hover:text-blue-500"
             >
-              <Link to="https://github.com/bhupendra-chouhan/NFT-Minter" target="_blank">GitHub</Link>
+              <Link to="https://github.com/Rise-In/NFT-Minter" target="_blank">
+                GitHub
+              </Link>
             </li>
           </ul>
         </div>
