@@ -53,16 +53,26 @@ The vision of the NFT-Minter Project is to create a collaborative, beginner-frie
 
 ## Maintainers (Our Team for Hacktoberfest2024)
 
-<table>
-  <tr>
-  <td align="center" style="word-wrap: break-word; width: 200.0; height: 200.0">
-    <a href=https://github.com/bhupendra-chouhan/>
-      <img src="https://avatars.githubusercontent.com/u/78025043?v=4" width=250px height=295px />
-      <br />
-      <sub style="font-size:14px"><b>Bhupendra Chouhan</b></sub>
-    </a>  
-    </td>
+Meet the amazing maintainers of this project:
 
-</table>
+| Maintainer | Role | Photo |
+| ---------- | ---- | ----- |
+| [Bhupendra](https://github.com/bhupendra-chouhan) | Lead Maintainer | <img src="https://avatars.githubusercontent.com/u/78025043?v=4" width="100" height="100" alt="Name 1"> |
+| [Sahitya](https://github.com/SahityaRoy) | Co-Maintainer | <img src="https://avatars.githubusercontent.com/u/72821604?v=4" width="100" height="100" alt="Name 2"> |
+| [Aryan](https://github.com/neutr0n420) | Contributor | <img src="https://media.licdn.com/dms/image/v2/D5603AQEGBp2H-85zWA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693536160681?e=1734566400&v=beta&t=f6SoR_-rq0gA99mvwpeCSE5Q6y-cB_Bux2VNqVpiKas" width="100" height="100" alt="Name 3"> |
+
+Feel free to reach out to any of us with questions or contributions!
+
+---
+
+
+## Contributing
+
+We welcome contributions from the community. Please review our [contributing guidelines](CONTRIBUTING.md) for more information.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
