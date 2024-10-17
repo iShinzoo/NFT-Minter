@@ -1,4 +1,4 @@
-# NFT-Minter (Open-Sourced)
+# NFT-Minter (Hacktoberfest2024)
 
 ---
 ## Project Description: 
