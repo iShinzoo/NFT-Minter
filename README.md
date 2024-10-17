@@ -70,6 +70,19 @@ Feel free to reach out to any of us with questions or contributions!
 
 We welcome contributions from the community. Please review our [contributing guidelines](CONTRIBUTING.md) for more information.
 
+## Follow Us on Socials 🌍
+
+Stay connected with us through our social media channels and never miss any updates!
+
+- [Twitter](https://twitter.com/riseinweb3) 🐦
+- [LinkedIn](https://www.linkedin.com/in/riseinweb3) 💼
+- [Instagram](https://www.instagram.com/riseinweb3) 📸
+
+Join our community on Telegram for real-time discussions and support:
+- [Telegram Group](https://t.me/risein_india) 📲
+
+Feel free to reach out, engage, and be a part of our amazing community!
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
