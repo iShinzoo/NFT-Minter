@@ -1,0 +1,19 @@
+{
+  "name": "The Witcher3 Villan",
+  "description": "This is a villian character from the game TW3",
+  "image": "bafybeiagplpz2k26buw3rh6uev37udqbefcoav2w2puzii5c2hne5rhva4",
+  "attributes": [
+    {
+      "trait_type": "Creator's Name",
+      "value": "Bhupendra Chouhan"
+    },
+    {
+      "trait_type": "Creator's GitHub ID",
+      "value": "bhupendra-chouhan"
+    },
+    {
+      "trait_type": "Creator's Wallet Address",
+      "value": "0x430e95bd52a34c7d8015fbaf20e3495658316544"
+    }
+  ]
+}
