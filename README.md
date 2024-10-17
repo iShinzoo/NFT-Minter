@@ -30,7 +30,7 @@ The vision of the NFT-Minter Project is to create a collaborative, beginner-frie
 ---
 ## Project Setup Guide:
 
-1. Clone the project using command: ```git clone https://github.com/bhupendra-chouhan/NFT-Minter.git```
+1. Clone the project using command: ```git clone https://github.com/Rise-In/NFT-Minter.git```
 2. Install the npm packages using any one of the three comands below mentioned: 
     ```npm install```
     ```npm --legacy-peer-deps install```
