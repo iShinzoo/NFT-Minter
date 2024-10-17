@@ -12,12 +12,12 @@ The vision of the NFT-Minter Project is to create a collaborative, beginner-frie
 ---
 ## Some Project Screenshots:
 ### - Desktop view:
-![image](https://github.com/user-attachments/assets/59cd907d-7831-432a-9085-1d0959b735ad)
-![image](https://github.com/user-attachments/assets/70d81651-6449-49df-9ae2-dbbad424ac1c) 
+![image](https://imgur.com/EhuMwph.png)
+![image](https://imgur.com/EtfyE1q.png)
 
 ### - Mobile View:
-![image](https://github.com/user-attachments/assets/86674a63-c78c-4f11-ab81-3d159e55b7cf)
-![image](https://github.com/user-attachments/assets/1120c36a-d9af-4e8f-8a38-a06b4945787c)
+![image](https://i.imgur.com/OVwrVao.png)
+![image](https://i.imgur.com/2qyhhJ7.png)
 
 ---
 ## Technologies Used:
