@@ -10,7 +10,7 @@
     "@thirdweb-dev/contracts": "^3.15.0",
     "@thirdweb-dev/react": "^4.9.4",
     "@thirdweb-dev/sdk": "^4.0.99",
-    "ethers": "^6.13.3",
+    "ethers": "^5.0.0",
     "ipfs-http-client": "^60.0.1",
     "pinata-web3": "^0.5.1",
     "react": "^18.3.1",
@@ -19,6 +19,7 @@
     "react-scripts": "5.0.1",
     "react-syntax-highlighter": "^15.5.0",
     "thirdweb": "^5.61.6",
+    "typescript": "^5.6.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
