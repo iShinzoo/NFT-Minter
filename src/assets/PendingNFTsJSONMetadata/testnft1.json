@@ -1,0 +1,19 @@
+{
+  "name": "Death Tree",
+  "description": "This is a death tree from the Witcher 3 game.",
+  "image": "bafybeifbu3txs7f75u5uomwjzdvmqf7k5ynjt3jeeiljl2er2ckfkubp6q",
+  "attributes": [
+    {
+      "trait_type": "Creator's Name",
+      "value": "Bhupendra Chouhan"
+    },
+    {
+      "trait_type": "Creator's GitHub ID",
+      "value": "bhupendra-chouhan"
+    },
+    {
+      "trait_type": "Creator's Wallet Address",
+      "value": "0x430E95BD52a34c7d8015Fbaf20e3495658316544"
+    }
+  ]
+}
