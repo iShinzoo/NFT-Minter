@@ -34,8 +34,8 @@ const NftList = () => {
     };
   return (
     <div className="flex flex-wrap justify-center">
-      {nftList?.map((ele) => (
-        <NftCard metaDataIpfsHash={ele} key={ele} />
+      {nftList?.map((ele, index) => (
+        <NftCard metaDataIpfsHash={ele} key={index} />
       ))}
     </div>
   );
