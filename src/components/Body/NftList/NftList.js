@@ -3,6 +3,7 @@ import NftCard from './NftCard'
 import { readContract, createThirdwebClient, getContract } from "thirdweb";
 import { defineChain } from "thirdweb/chains";
 import NftSearchBar from './NftSearchBar';
+import Loader from '../Loader/Loader';
 
 // create the client with your clientId, or secretKey if in a server environment
 const client = createThirdwebClient({
@@ -26,10 +27,10 @@ const NftList = () => {
   const onSearchBtnClick = () => {
     try {
       if (searchQuery?.length) {
-        const trimmedSearchVal = searchQuery.trim();
+        const trimmedSearchVal = searchQuery.trim().toLowerCase();
     
         const filteredResults = nftList.filter((nft) => {
-          const githubId = nft.attributes[1].value;
+          const githubId = nft.attributes[1].value.toLowerCase();
     
           return githubId.includes(trimmedSearchVal);
         });
@@ -91,9 +92,11 @@ const NftList = () => {
     <NftSearchBar onSearchBtnClick={onSearchBtnClick} onSearchBarChange={onSearchBarChange} />
     <div className="flex flex-wrap justify-center">
       {
-        nftList?.length === 0 && <h1 className='mt-3'>Loading...</h1>
+        nftList?.length === 0 && <div className='mt-5'>
+          <Loader />
+        </div>
       }
-      {
+       {
         filteredNftList ? <>
           {
             filteredNftList.length === 0
@@ -110,7 +113,7 @@ const NftList = () => {
         : nftList?.map((ele) => (
           <NftCard {...ele} key={JSON.stringify(ele)} />
         ))
-      }
+      } 
     </div>
   </div>;
 }
