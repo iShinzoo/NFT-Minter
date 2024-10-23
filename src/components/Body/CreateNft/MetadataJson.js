@@ -59,6 +59,18 @@ const Metadata = () => {
         console.error("Failed to copy: ", err);
       });
   };
+    const handleDownload = () => {
+    const jsonBlob = new Blob([JSON.stringify(nftData, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(jsonBlob);
+    const timestamp = Math.floor(Date.now() / 1000); // Unix timestamp
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${timestamp}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url); // Clean up
+  };
 
   return (
     <div className="flex sm:flex-row flex-col gap-5 justify-center">
@@ -136,6 +148,12 @@ const Metadata = () => {
             >
               Copy to Clipboard
             </button>
+                <button
+            className="border content- rounded-lg bg-green-200 p-2 hover:bg-green-300"
+            onClick={handleDownload}
+          >
+            Download JSON
+          </button>
           </div>
           <div>
             {copyMessage && <p style={{ color: "green" }}>{copyMessage}</p>}
