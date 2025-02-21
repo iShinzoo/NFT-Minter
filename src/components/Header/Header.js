@@ -1,28 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Header = ({ setPubAddress }) => {
-  const [account, setAccount] = useState(null);
+  const [account] = useState(null);
   const [open, setOpen] = useState(false);
 
   const handleOpenMenu = () => setOpen(!open);
-
-  const connectWallet = async () => {
-    if (window.ethereum) {
-      try {
-        // Request account access if needed
-        const accounts = await window.ethereum.request({
-          method: "eth_requestAccounts",
-        });
-        // Get the first account
-        setAccount(accounts[0]);
-      } catch (error) {
-        console.error("Error connecting to MetaMask:", error);
-      }
-    } else {
-      alert("MetaMask not detected. Please install MetaMask to use this dApp.");
-    }
-  };
 
   useEffect(() => {
     if (account) {
@@ -70,15 +54,12 @@ const Header = ({ setPubAddress }) => {
             </li>
           </ul>
         </div>
-
-        <button
-          onClick={connectWallet}
+        <ConnectButton
+          showBalance={true}
+          accountStatus="address"
+          chainStatus="icon"
           className="px-4 py-2 bg-blue-400 text-gray-900 rounded-lg cursor-pointer text-base"
-        >
-          {account
-            ? `${account.slice(0, 6)}...${account.slice(-4)}`
-            : "Connect Wallet"}
-        </button>
+        />
       </div>
     </header>
   );

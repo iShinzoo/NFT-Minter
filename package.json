@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.6",
+    "@rainbow-me/rainbowkit": "^2.2.4",
+    "@tanstack/react-query": "^5.66.9",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -20,6 +22,8 @@
     "react-syntax-highlighter": "^15.5.0",
     "thirdweb": "^5.61.6",
     "typescript": "^5.6.3",
+    "viem": "^2.23.4",
+    "wagmi": "^2.14.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
