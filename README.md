@@ -26,6 +26,7 @@ The vision of the NFT-Minter Project is to create a collaborative, beginner-frie
 - Solidity - For writing the smartcontract
 - HardHat - for compiling and deploying the smartcontract
 - ThirdWeb - For building integeration function 
+- RainbowKit - For Wallet Connection
 
 ---
 ## Project Setup Guide:
@@ -45,6 +46,7 @@ The vision of the NFT-Minter Project is to create a collaborative, beginner-frie
 
     REACT_APP_PINATA_JWT=""
     REACT_APP_PINATA_GATEWAY=""    
+    REACT_APP_RAINBOW_WALLET_PROJECT_ID=""
     ```
 
     ***Note: You need to fill in the values for the empty environment variables yourself in order to successfully run this project locally on your system.***
